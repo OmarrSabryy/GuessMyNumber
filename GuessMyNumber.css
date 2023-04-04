@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  background-color: rgba(127, 255, 212, 0.514);
+  font-family: "segoe UI";
+}
+header {
+  display: flex;
+  /* border: solid 0.1rem red; */
+  padding: 2rem 1rem;
+  flex-basis: 50%;
+  text-align: center;
+}
+header .reset {
+  flex: 1;
+  margin: auto;
+}
+header .info {
+  padding: 1rem 1rem;
+  margin: auto;
+  flex: 1;
+}
+header button {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: none;
+  width: 9rem;
+  height: 4rem;
+  /* border: solid 0.1rem red; */
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+header .info h4 {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+.title {
+  /* border: solid 0.1rem red; */
+  text-align: center;
+  font-size: 5rem;
+}
+.shapes {
+  display: flex;
+  margin-top: 1rem;
+}
+.show {
+  background-color: white;
+  width: 12rem;
+  height: 12rem;
+  flex: 1;
+  display: flex;
+  order: 2;
+  border-radius: 0.5rem;
+}
+.show p {
+  margin: auto;
+  font-size: 5rem;
+}
+.L-line {
+  background-color: white;
+  height: 1rem;
+  flex: 3;
+  order: 1;
+  margin-top: 5.5rem;
+}
+.R-line {
+  background-color: white;
+  height: 1rem;
+  flex: 3;
+  order: 3;
+  margin-top: 5.5rem;
+}
+.container {
+  display: flex;
+  margin-top: 3rem;
+}
+.guess {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* border: solid 0.1rem red; */
+  padding: 2rem 2rem;
+}
+.scores {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* border: solid 0.1rem red; */
+  padding: 2rem 2rem;
+}
+.guess input {
+  width: 16rem;
+  height: 8rem;
+  margin: auto;
+  text-align: center;
+  border-radius: 0.5rem;
+  background-color: rgba(127, 255, 212, 0.103);
+  border: 0.2rem solid white;
+  font-size: 5rem;
+}
+.guess button {
+  width: 10rem;
+  height: 4rem;
+  margin: 2rem auto;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+.scores p {
+  margin: auto;
+  font-size: 3rem;
+  flex: 1;
+}
